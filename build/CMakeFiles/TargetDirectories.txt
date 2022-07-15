@@ -1,0 +1,9 @@
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/Experimental.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/Nightly.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/Continuous.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/tallerLab.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/PACKAGE.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/ZERO_CHECK.dir

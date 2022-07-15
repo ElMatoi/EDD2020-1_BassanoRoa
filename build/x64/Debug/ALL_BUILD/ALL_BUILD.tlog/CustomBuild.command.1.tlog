@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DESKTOP\TALLERLAB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Usuario/Desktop/tallerLab -BC:/Users/Usuario/Desktop/tallerLab/build --check-stamp-file C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

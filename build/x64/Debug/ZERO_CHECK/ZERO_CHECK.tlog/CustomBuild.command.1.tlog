@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DESKTOP\TALLERLAB\BUILD\CMAKEFILES\9EC44E338A63C434A742132246C12010\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Usuario/Desktop/tallerLab -BC:/Users/Usuario/Desktop/tallerLab/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Usuario/Desktop/tallerLab/build/tallerLab.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
