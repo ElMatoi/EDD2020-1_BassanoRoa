@@ -25,14 +25,13 @@ C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.23/Templates/CPackConfig.cmake.in
-C:/Users/Usuario/Desktop/tallerLab/CMakeLists.txt
-C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
-C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake
-C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
-C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/3.23.2/CMakeSystem.cmake
-C:/opencv/build/OpenCVConfig-version.cmake
-C:/opencv/build/OpenCVConfig.cmake
-C:/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
-C:/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
-C:/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
-C:/opencv/build/x64/vc15/lib/OpenCVModules.cmake
+C:/Program Files/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake
+C:/Program Files/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
+C:/Program Files/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
+C:/Program Files/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
+C:/Program Files/opencv/build/x64/vc15/lib/OpenCVModules.cmake
+C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/CMakeLists.txt
+C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
+C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake
+C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
+C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/3.23.2/CMakeSystem.cmake

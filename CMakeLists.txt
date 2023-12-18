@@ -7,9 +7,8 @@ enable_testing()
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-add_executable(tallerLab main.cpp persona.cpp detector.cpp KdTree.cpp KdTreeNode.cpp )
+add_executable(tallerLab main.cpp persona.cpp detector.cpp KdTree.cpp KdTreeNode.cpp)
 target_link_libraries( tallerLab ${OpenCV_LIBS} )
-
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

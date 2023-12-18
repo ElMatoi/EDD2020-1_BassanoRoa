@@ -14,11 +14,14 @@ public:
     void print();
     void remove(kdTreeNode* entry);
     void insert(kdTreeNode* newEntry);
-    
+
+    int getCantidadNodos();
+    void setCantidadNodos(int x);  
     
 private:
      
     kdTreeNode *root;
+    int cantidadNodos;
  
 };
  

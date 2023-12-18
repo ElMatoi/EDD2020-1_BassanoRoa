@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3E765C86-6CDB-36E8-B9CB-C48EDF218073}</ProjectGuid>
+    <ProjectGuid>{8A0739AA-6DBF-3E35-88A9-7360F53D1CD1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Usuario\Desktop\tallerLab\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tallerLab.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tallerLab</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Usuario\Desktop\tallerLab\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tallerLab.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tallerLab</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Usuario\Desktop\tallerLab\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tallerLab.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tallerLab</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Usuario\Desktop\tallerLab\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tallerLab.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tallerLab</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,13 +114,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;C:\opencv\build\x64\vc15\lib\opencv_world455d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Usuario/Desktop/tallerLab/build/Debug/tallerLab.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Usuario/Desktop/tallerLab/build/Debug/tallerLab.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/Debug/tallerLab.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/Debug/tallerLab.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,13 +157,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Usuario/Desktop/tallerLab/build/Release/tallerLab.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Usuario/Desktop/tallerLab/build/Release/tallerLab.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/Release/tallerLab.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/Release/tallerLab.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,13 +200,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Usuario/Desktop/tallerLab/build/MinSizeRel/tallerLab.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Usuario/Desktop/tallerLab/build/MinSizeRel/tallerLab.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/MinSizeRel/tallerLab.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/MinSizeRel/tallerLab.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -242,13 +242,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;C:\opencv\build\x64\vc15\lib\opencv_world455.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;C:\Program Files\opencv\build\x64\vc15\lib\opencv_world460.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Usuario/Desktop/tallerLab/build/RelWithDebInfo/tallerLab.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Usuario/Desktop/tallerLab/build/RelWithDebInfo/tallerLab.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/RelWithDebInfo/tallerLab.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/RelWithDebInfo/tallerLab.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -256,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Usuario\Desktop\tallerLab\CMakeLists.txt">
+    <CustomBuild Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Usuario/Desktop/tallerLab/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Usuario/Desktop/tallerLab -BC:/Users/Usuario/Desktop/tallerLab/build --check-stamp-file C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa" "-BC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build" --check-stamp-file "C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\opencv\build\OpenCVConfig-version.cmake;C:\opencv\build\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Usuario/Desktop/tallerLab/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Usuario/Desktop/tallerLab -BC:/Users/Usuario/Desktop/tallerLab/build --check-stamp-file C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa" "-BC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build" --check-stamp-file "C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\opencv\build\OpenCVConfig-version.cmake;C:\opencv\build\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Usuario/Desktop/tallerLab/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Usuario/Desktop/tallerLab -BC:/Users/Usuario/Desktop/tallerLab/build --check-stamp-file C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa" "-BC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build" --check-stamp-file "C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\opencv\build\OpenCVConfig-version.cmake;C:\opencv\build\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Usuario/Desktop/tallerLab/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Usuario/Desktop/tallerLab -BC:/Users/Usuario/Desktop/tallerLab/build --check-stamp-file C:/Users/Usuario/Desktop/tallerLab/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa" "-BC:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build" --check-stamp-file "C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,21 +307,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\opencv\build\OpenCVConfig-version.cmake;C:\opencv\build\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Usuario\Desktop\tallerLab\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Program Files\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\main.cpp" />
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\Persona.cpp" />
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\Detector.cpp" />
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\KdTree.cpp" />
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\KdTreeNode.cpp" />
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\main.cpp" />
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\Persona.cpp" />
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\Detector.cpp" />
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\KdTree.cpp" />
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\KdTreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Usuario\Desktop\tallerLab\build\ZERO_CHECK.vcxproj">
-      <Project>{322EFF35-CEA9-3EA5-AD74-1F6E096C1BE1}</Project>
+    <ProjectReference Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\build\ZERO_CHECK.vcxproj">
+      <Project>{3431E19F-7C16-33CA-8781-8EF1AD512DCF}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

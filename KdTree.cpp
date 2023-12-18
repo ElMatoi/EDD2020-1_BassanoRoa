@@ -7,6 +7,7 @@ class kdTree;
  
 kdTree::kdTree() {
     root = NULL;
+    cantidadNodos = 0;
 }
  
 kdTree::kdTree(const kdTree& orig) {
@@ -55,4 +56,12 @@ void kdTree::print(){
         return;
     else
         root->printNodes();
+}
+
+int kdTree::getCantidadNodos(){
+    return cantidadNodos;
+}
+
+void kdTree::setCantidadNodos(int x){
+    cantidadNodos = x;
 }

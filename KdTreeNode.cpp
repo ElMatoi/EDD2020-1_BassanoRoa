@@ -14,8 +14,8 @@ kdTreeNode::kdTreeNode() {
     left = NULL;
     right = NULL;
     parent = NULL;
-    YInicial=0;
-    
+    YInicial = 0;
+    yaContado = false; 
 }
  
 kdTreeNode::kdTreeNode(float _x, float _y){
@@ -25,13 +25,10 @@ kdTreeNode::kdTreeNode(float _x, float _y){
     left = NULL;
     right = NULL;
     parent = NULL;  
-    YInicial=0; 
+    YInicial = 0;
+    yaContado = false;
 }
      
-     
-     
-     
-
  
 kdTreeNode::kdTreeNode(const kdTreeNode& orig) {
     x = orig.x;
@@ -39,7 +36,8 @@ kdTreeNode::kdTreeNode(const kdTreeNode& orig) {
     left = orig.left;
     right = orig.right;
     parent = orig.parent;
-    YInicial=0;
+    YInicial = 0;
+    yaContado = false;
 }
  
 kdTreeNode::~kdTreeNode() {
@@ -522,44 +520,16 @@ void kdTreeNode::findPath(kdTreeNode *entry){
 } 
  
 void kdTreeNode::printNodes(){
-    int cantEntran=0;
-    int cantSalen=0;
+
     if(left != NULL)
-        //left->printNodes();
-        if(left->getY()>180){
-            cantEntran=cantEntran+1;
-        }else if(left->getY()<180){
-            cantSalen=cantSalen+1;
-        }
-
-    
+        left->printNodes();
     if(this->parent != NULL){
-        //cout<<"("<<this->x<<","<<this->y<<")"<<endl;
-         if(this->parent->getY()>180){
-           // cantEntran=cantEntran+1;
-        }else if(this->parent->getY()<180){
-            //cantSalen=cantSalen+1;
-        }
-
-        
+        cout<<"("<<this->x<<","<<this->y<<")"<<endl;
     }else{
-        //cout<<"("<<this->x<<","<<this->y<<")"<<endl;
-          if(this->getY()>180){
-            //cantEntran=cantEntran+1;
-        }else if(this->getY()<180){
-            //cantSalen=cantSalen+1;
-        }
-
-    }
-      //cout <<"Entraron:"<< cantEntran << endl;
-     //cout << "Salieron:"<<cantSalen << endl;
-      // double vEntran=contadorEntran*0.360;
-     //double  vSalen=contadorSalen*0.360;
-    
+        cout<<"("<<this->x<<","<<this->y<<")"<<endl; 
+    } 
     if(right != NULL)
-        right->printNodes();
-       
-     
+        right->printNodes();    
 }
 
  
@@ -614,10 +584,18 @@ double kdTreeNode::findDistanceBetweenTwoPoints(kdTreeNode* node1, kdTreeNode* n
     return distance;
 }
 
-float kdTreeNode:: getYInicial(){
+float kdTreeNode::getYInicial(){
     return YInicial;
 }
-void kdTreeNode:: setYInicial(float y){
-    YInicial=y;
-    
+
+void kdTreeNode::setYInicial(float y){
+    YInicial = y;
+}
+
+bool kdTreeNode::getYaContado(){
+    return yaContado;
+}
+
+void kdTreeNode::setYaContado(bool flag){
+    yaContado = flag;
 }

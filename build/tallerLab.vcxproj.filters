@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\main.cpp">
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\Persona.cpp">
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\Persona.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\Detector.cpp">
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\Detector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\KdTree.cpp">
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\KdTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Usuario\Desktop\tallerLab\KdTreeNode.cpp">
+    <ClCompile Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\KdTreeNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Usuario\Desktop\tallerLab\CMakeLists.txt" />
+    <CustomBuild Include="C:\Proyectos\Visual Studio 2022\ED22-01-Bassano-Roa\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{DB1C6F1C-6CB6-3BD7-AED8-08A4F3918D9A}</UniqueIdentifier>
+      <UniqueIdentifier>{A54201A0-FAD0-31E3-87B1-D88FEB3A93F0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Usuario/Desktop/tallerLab
-BuildDirectory: C:/Users/Usuario/Desktop/tallerLab/build
+SourceDirectory: C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa
+BuildDirectory: C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-BHMQAVJ
+Site: DESKTOP-GMO1NLF
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-MSBuild
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Usuario/Desktop/tallerLab"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Proyectos/Visual Studio 2022/ED22-01-Bassano-Roa"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/MinGW/bin/gcov.exe
+CoverageCommand: COVERAGE_COMMAND-NOTFOUND
 CoverageExtraFlags: -l
 
 # Testing options

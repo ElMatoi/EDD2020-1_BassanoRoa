@@ -35,7 +35,6 @@ public:
      
     void printNodes();
     
-     
     void clearFlags();
     
     void findPath(kdTreeNode *entry);
@@ -48,14 +47,17 @@ public:
      
     void distributeTreeWithNewRoot(kdTreeNode* root, bool rootWasSet);
     
-    double findDistanceBetweenTwoPoints(kdTreeNode* node1, kdTreeNode* node2);
-    
+    double findDistanceBetweenTwoPoints(kdTreeNode* node1, kdTreeNode* node2); 
      
     kdTreeNode* findNewRoot(kdTreeNode* root);
     
     kdTreeNode* findClosestNode(kdTreeNode* entry);
      
     kdTreeNode* closestNodeInPath(kdTreeNode* entry, kdTreeNode* root);
+
+    bool getYaContado();
+
+    void setYaContado(bool flag);
     
 private:
      
@@ -63,9 +65,9 @@ private:
     float y;
     bool level;
     bool beenHere;
+    bool yaContado;
     float YInicial;
     
-         
     kdTreeNode* left;
     kdTreeNode* right;
     kdTreeNode* parent;

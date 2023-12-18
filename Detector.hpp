@@ -9,8 +9,6 @@
 #include <iostream>
 #include <iomanip>
 
-
-
 using namespace cv;
 using namespace std;
 #include "Persona.hpp"
